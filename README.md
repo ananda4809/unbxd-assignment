@@ -1,8 +1,6 @@
 # unbxd-assignment
 
-## Lists
-
-### Unordered
+### Lists of files
 
 * **apiHelper.js** - Calling APIs
 * **buildHTML.js** - Functions to create dynamic HTML
