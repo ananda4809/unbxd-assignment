@@ -1,0 +1,74 @@
+body {
+	background-color: mintcream;
+	margin-top: 2%;
+}
+
+.imageCSS {
+	height: 200px;
+}
+
+div.eachImage {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    /*border: 1px solid;*/
+    height: 300px;
+}
+
+@media (max-width: 950px) {
+    div.eachImage {
+        width: 170px;
+        height: 300px;
+    }
+}
+
+.caption {
+    display: block;
+    color: #9625a2;
+    text-decoration: none;
+}
+
+.price {
+	color: navy;
+}
+
+#childDiv1 {
+    width:150px;
+    float:left;
+    height:100%;
+	font-style: italic;
+}
+
+#childDiv2 {
+    margin-left:150px;
+}
+
+.tableStyle {
+	margin-left: 2%;
+}
+
+#searchInput {
+	width: 50%;
+	font-size: 16px;
+	height: 30px;
+}
+
+#searchButton {
+	background-color: #b0bfb1; /* Green */
+	border: none;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+img {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

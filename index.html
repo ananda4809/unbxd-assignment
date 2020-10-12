@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment - v1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<script type="text/javascript" src="./scriptFile.js"></script>
+<script type="text/javascript" src="./apiHelper.js"></script>
+<script type="text/javascript" src="./config.js"></script>
+<script type="text/javascript" src="./buildHTML.js"></script>
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+<body>
+	<div class="seachDiv" align="center">
+		<input type="text" id="searchInput" name="searchInput" placeholder="Ex: Tops" />
+		<button id="searchButton" onclick="searchData();">Search</button>
+	</div>
+	<br/>
+	<div class="parentDiv">
+		<div id="childDiv1"></div>
+		<div id="childDiv2"> 
+			<table id="productList" class="tableStyle"></table>
+		</div>
+	</div>
+</body>
+</html>
